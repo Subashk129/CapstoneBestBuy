@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BestBuyTest(failed)">
+    <classes>
+      <class name="Testcase.TS001_navigatingtoBB">
+        <methods>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="tc_01_navgatingToBestBestApp"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS001_navigatingtoBB -->
+      <class name="Testcase.TS002_ValidateUrl">
+        <methods>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="setup"/>
+          <include name="tc_02_validateUrlIsNotBroken"/>
+          <include name="close"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS002_ValidateUrl -->
+      <class name="Testcase.TS010_ChekOutPagefilling">
+        <methods>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="tc_09_CheckOutPageFilling"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS010_ChekOutPagefilling -->
+      <class name="Testcase.TS008_SelAdditemsShopBydept">
+        <methods>
+          <include name="tc_07_selAddItemShopByDeptMenu"/>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS008_SelAdditemsShopBydept -->
+      <class name="Testcase.TS006_SearchAdditeminCart">
+        <methods>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="setup"/>
+          <include name="tc_06_SearchAddItemInCart"/>
+          <include name="close"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS006_SearchAdditeminCart -->
+      <class name="Testcase.TC005_CheckTitleofAllMenu">
+        <methods>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="tc_04_CheckTitleOfAllMenu"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TC005_CheckTitleofAllMenu -->
+      <class name="Testcase.TS004_SignInFunction">
+        <methods>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="tc_03_SignInFunctionality"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS004_SignInFunction -->
+      <class name="Testcase.TS009_SelAdditemShopByBrand">
+        <methods>
+          <include name="ts009_selAddItemShopByBrand"/>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS009_SelAdditemShopByBrand -->
+      <class name="Testcase.TS003_CreateAccount">
+        <methods>
+          <include name="tc_03_validateCreatAccountFunctionality"/>
+          <include name="testDetails"/>
+          <include name="startReport"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS003_CreateAccount -->
+      <class name="Testcase.TS007_ValidateLinkInBottom">
+        <methods>
+          <include name="testDetails"/>
+          <include name="tc_05_validateLinkInBottomOfHomePage"/>
+          <include name="startReport"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Testcase.TS007_ValidateLinkInBottom -->
+    </classes>
+  </test> <!-- BestBuyTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
